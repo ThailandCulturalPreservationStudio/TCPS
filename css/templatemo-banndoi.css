@@ -15,7 +15,7 @@ https://templatemo.com/tm-587-tiya-golf-club
   --primary-color:                #81B29A;
   --secondary-color:              #3D405B;
   --section-bg-color:             #F4F1DE;
-  --custom-btn-bg-color:          #F2CC8F;
+  --custom-btn-bg-color:          #F4F1DE;
   --custom-btn-bg-hover-color:    #E07A5F;
   --dark-color:                   #000000;
   --p-color:                      #717275;
@@ -43,8 +43,8 @@ https://templatemo.com/tm-587-tiya-golf-club
 }
 
 body {
-  background-color: var(--white-color);
-  font-family: var(--body-font-family); 
+    font-family: 'DM Sans', sans-serif;
+    background-color: #f4f4f4;
 }
 
 
@@ -363,7 +363,8 @@ strong {
   background: var(--custom-btn-bg-color);
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
-  color: var(--white-color);
+  border-color: #81B29A;
+  color: #3D405B; 
   font-size: var(--btn-font-size);
   font-weight: var(--font-weight-bold);
   line-height: normal;
@@ -372,8 +373,8 @@ strong {
 }
 
 .custom-btn:hover {
-  background: var(--custom-btn-bg-hover-color);
-  color: var(--white-color);
+  background-color: #81B29A; /* Green */
+    color: #F4F1DE; /* White */
 }
 
 .custom-border-btn {
@@ -476,6 +477,7 @@ strong {
   margin-left: 10px;
   position: relative;
   bottom: 5px;
+  color: #F2CC8F; /* Blonde */
 }
 
 .navbar-brand-text small {
@@ -1179,6 +1181,10 @@ strong {
   h4 {
     font-size: 20px;
   }
+
+  h2, h3, h4, h1 {
+    color: #3D405B; /* Darker green for headings */
+}
 
   h5 {
     font-size: 18px;
