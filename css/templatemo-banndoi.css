@@ -130,7 +130,7 @@ strong {
 }
 
 .website-counter {
-  background-color: #ff4957;
+  background-color: #b0a561;
   height: 50px;
   width: 80px;
   color: white;
@@ -138,6 +138,10 @@ strong {
   font-weight: 700;
   font-size: 25px;
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /*---------------------------------------
