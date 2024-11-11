@@ -1,0 +1,43 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.6;
+    color: #3D405B;
+}
+
+.navbar {
+    background-color: #81B29A;
+}
+
+.hero-section {
+    background: #3D405B;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+.site-footer {
+    background: #81B29A;
+    color: white;
+    padding: 20px 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #F4F4F4;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
