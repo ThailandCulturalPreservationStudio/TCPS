@@ -16,6 +16,35 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/bootstrap-icons.css" rel="stylesheet">
         <link href="css/templatemo-banndoi.css" rel="stylesheet">
+
+        <style>
+            .navbar {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                z-index: 10;
+                background: transparent;
+            }
+
+            .hero-section {
+                position: relative;
+                padding-top: 100px; /* Ensure content doesn't overlap nav */
+            }
+
+            .hero-section svg {
+                position: relative;
+                z-index: 1; /* Below the navbar */
+            }
+
+            .section-overlay {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                background: rgba(0, 0, 0, 0.5); /* Optional overlay for effect */
+            }
+        </style>
     </head>
     <body>
         <!-- Top Bar -->
@@ -64,9 +93,6 @@
                 <p class="text-white-50">Explore, Preserve, and Engage with Thai Culture</p>
                 <a href="#overview" class="btn btn-primary">Learn More</a>
             </div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path fill="#F4F4F4" fill-opacity="1" d="M0,224L34.3,192C68.6,160,137,96,206,90.7C274.3,85,343,139,411,144C480,149,549,107,617,122.7C685.7,139,754,213,823,240C891.4,267,960,245,1029,224C1097.1,203,1166,181,1234,160C1302.9,139,1371,117,1406,106.7L1440,96L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
-            </svg>
         </header>
 
         <section id="overview" class="section-padding">
